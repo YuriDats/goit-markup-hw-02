@@ -1,0 +1,92 @@
+/* Full */
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+span {
+    color: #4D5AE5;
+}
+
+.header a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Header */
+
+.navheader li > a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.address li > a {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Main */
+
+.one {
+    background-color: #2E2F42;
+    color: white;
+    Width: 700;
+    font-size: 56px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.three {
+    background-color: #F4F4FD;
+}
+
+.three img {
+    width: 264px; 
+    height: 260px;
+}
+
+
+.four img {
+    width: 360px;
+    height: 300px;
+}
+/* footer */
+
+.footer {
+    background-color: #2E2F42;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+}
