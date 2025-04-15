@@ -6,7 +6,8 @@ body {
 a {
     text-decoration: none;
     color: black;
-    
+    line-height: 24px;
+    letter-spacing: 0.02;
 
 }
 span {
@@ -22,11 +23,15 @@ span {
 h3 {
     font-weight: 500;
     font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02;
 }
 
 p {
     font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02;
 }
 
 /* Header */
@@ -49,6 +54,8 @@ p {
     Width: 700;
     font-size: 56px;
     text-align: center;
+    line-height: 60px;
+    letter-spacing: 0.02;
 }
 
 .button {
@@ -56,6 +63,9 @@ p {
     color: white;
     text-align: center;
     font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.04;
 }
 
 .team {
@@ -78,6 +88,10 @@ p {
     height: 300px;
 }
 /* footer */
+
+.footerlogo{
+    font-family: Raleway, sans-serif;
+}
 
 .footer {
     background-color: #2E2F42;
