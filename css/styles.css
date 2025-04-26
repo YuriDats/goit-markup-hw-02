@@ -1,40 +1,58 @@
 /* Full */
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #434455;
     line-height: 24px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+
 
 }
 span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
-.header a {
-    font-weight: 700;
-    font-size: 18px;
+ul {
+    list-style-type: none;
 }
-
 
 h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 /* Header */
+.logo{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+    color: 4d5ae5;
+}
+
+.header .link:hover, .header .link:focus {
+    color: #404bbf;
+
+}
+
+.header a {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+}
 
 .navheader li > a {
     font-weight: 500;
@@ -48,24 +66,30 @@ p {
 
 /* Main */
 
-.one {
+.sectionone {
     background-color: #2E2F42;
     color: white;
-    Width: 700;
+    font-weight: 500;
     font-size: 56px;
     text-align: center;
-    line-height: 60px;
-    letter-spacing: 0.02;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .button {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: white;
     text-align: center;
     font-size: 16px;
     text-align: center;
     line-height: 24px;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
+}
+
+.sectionone .button:hover, .sectionone .button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 .team {
@@ -89,9 +113,6 @@ p {
 }
 /* footer */
 
-.footerlogo{
-    font-family: Raleway, sans-serif;
-}
 
 .footer {
     background-color: #2E2F42;
