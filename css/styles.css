@@ -48,16 +48,15 @@ p {
     color: #2e2f42;
 }
 
+.link {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: #2e2f42;
+}
 
 .header .link:hover, .header .link:focus {
     color: #404bbf;
 
-}
-
-.header a {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    color: #2e2f42;
 }
 
 .navheader li > a {
@@ -126,13 +125,13 @@ p {
 }
 
 .sectionthree {
+    background-color: #F4F4FD;
+}
+
+.sectionthree ul {
     background-color: #FFFFFF;
 }
 
-.sectionthree img {
-    width: 264px; 
-    height: 260px;
-}
 
 .threep {
     font-size: 16px;
@@ -152,10 +151,6 @@ p {
     background-color: #FFFFFF;
 }
 
-.fourimg {
-    width: 360px;
-    height: 300px;
-}
 /* footer */
 
 
@@ -165,9 +160,13 @@ p {
 }
 
 .footerlogo {
+    font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-weight: 700;
-    font-size: 18px
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footerspan {
