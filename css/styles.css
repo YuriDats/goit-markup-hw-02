@@ -39,6 +39,7 @@ p {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    font-weight: 700;
     text-transform: uppercase;
     color: #4d5ae5;
     font-size: 18px;
@@ -52,6 +53,10 @@ p {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     color: #2e2f42;
+}
+
+.address .link {
+    color: #434455;
 }
 
 .header .link:hover, .header .link:focus {
@@ -128,7 +133,7 @@ p {
     background-color: #F4F4FD;
 }
 
-.sectionthree ul {
+.sectionthree li {
     background-color: #FFFFFF;
 }
 
